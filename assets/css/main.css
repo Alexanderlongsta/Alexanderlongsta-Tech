@@ -986,6 +986,15 @@ hr {
             padding-top: 3em; } }
 
 /* Section/Article */
+.shrink-image {
+  max-width: 60%; /* Set the maximum width of the image */
+  height: auto; /* Allow the image to scale proportionally */
+}
+.shift-left {
+  margin-right: 40px; /* Adjust the margin as needed to shift the image to the left */
+}
+
+
 section.special, article.special {
   text-align: center; }
 
