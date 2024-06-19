@@ -987,9 +987,14 @@ hr {
 
 /* Section/Article */
 .shrink-image {
-  max-width: 60%; /* Set the maximum width of the image */
+  max-width: 65%; /* Set the maximum width of the image */
   height: auto; /* Allow the image to scale proportionally */
 }
+.shrink-image2 {
+  max-width: 70%; /* Set the maximum width of the image */
+  height: auto; /* Allow the image to scale proportionally */
+}
+
 .shrink-image1 {
   max-width: 50%; /* Set the maximum width of the image */
   height: auto; /* Allow the image to scale proportionally */
