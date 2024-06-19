@@ -1220,29 +1220,8 @@ input[type="radio"] + label:before {
     font-family: 'Font Awesome 5 Brands'; }
 
 /* Image */
-.content {
-  max-width: 800px; /* Adjust max-width as per your layout */
-  margin: 0 auto; /* Center align content */
-  padding: 20px; /* Add padding for spacing */
-}
 
-.image-and-text {
-  display: flex; /* Use flexbox for layout */
-  align-items: center; /* Align items vertically */
-  gap: 20px; /* Gap between image and text */
-}
 
-.image-and-text .image {
-  flex: 0 0 auto; /* Do not grow or shrink */
-}
-
-.image-and-text .text {
-  flex: 1; /* Take remaining space */
-}
-
-.image-and-text img {
-  max-width: 100%; /* Ensure image does not exceed its container */
-}
 
 .image {
   border-radius: 0.375em;
